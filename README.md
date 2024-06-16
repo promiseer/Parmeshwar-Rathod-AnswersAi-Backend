@@ -62,3 +62,9 @@ yarn docker-compose:test:watch
 ```bash
 yarn docker-compose:prod
 ```
+
+## Demo Video of Backend
+
+<p align="center">
+  <img src="./Demo of Answer AI backend.gif" alt="Sublime's custom image" />
+</p>

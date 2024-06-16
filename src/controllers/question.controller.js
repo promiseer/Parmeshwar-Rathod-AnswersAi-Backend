@@ -20,7 +20,7 @@ const sendAnswer = catchAsync(async (req, res) => {
         throw new ApiError(httpStatus.BAD_REQUEST, "bad request");
 
     }
-    const answer = await answerService.generativeAnwser(newQuestion.question);
+    const answer = await answerService.generativeAnwser(newQuestion);
 
     return res
         .status(httpStatus.OK)

@@ -32,11 +32,11 @@ const queryQuestions = async (filter, options) => {
  * @returns {Promise<Question>}
  */
 const getQuestionById = async (id) => {
-    return Question.findById(id);
+    return Question.findById(id).populate("answer");;
 };
 
 const getQuestionByAuthor = async (id) => {
-    return Question.find({ author: id });
+    return Question.find({ author: id }).populate("answer");
 };
 
 /**
