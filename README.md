@@ -65,6 +65,5 @@ yarn docker-compose:prod
 
 ## Demo Video of Backend
 
-<p align="center">
-  <img src="./Demo of Answer AI backend.gif" alt="Sublime's custom image" />
-</p>
+
+[![Watch the video](./demo-ss.png)](https://drive.google.com/file/d/1HR1pErDYukVkqQ-LqKE8Vbfw9WaAjcZH/view)
